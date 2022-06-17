@@ -1,0 +1,29 @@
+<section id="lookup-form-section">
+  <form [formGroup]="lookupForm" (ngSubmit)="onSubmit()">
+    <input
+      id="first-name"
+      placeholder="First Name"
+      type="text"
+      formControlName="firstName"
+    />
+    <input
+      id="last-name"
+      placeholder="Last Name"
+      type="text"
+      formControlName="lastName"
+    />
+    <input id="email" placeholder="Email" type="text" formControlName="email" />
+    <input
+      id="phone-number"
+      placeholder="Phone Number"
+      type="text"
+      formControlName="phoneNumber"
+    />
+  </form>
+  <div class="action-area">
+    <button type="button" class="btn btn-outline-primary">
+      Reset
+    </button>
+    <button type="button" class="btn btn-primary">Search</button>
+  </div>
+</section>

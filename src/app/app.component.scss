@@ -1,0 +1,38 @@
+@import 'constant';
+
+header {
+  height: 8vh;
+  .row {
+    background-color: $primary-black;
+    color: $primary-white;
+    padding: 0rem 1rem;
+    align-items: center;
+    div {
+      background-color: inherit;
+    }
+  }
+}
+
+section#main-section {
+  .main-container {
+    padding: 2rem;
+    background-color: #ebe9e9;
+    height: 92vh;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    height: 6vh;
+  }
+  .row {
+    font-size: calc(1vw + 0.5rem);
+  }
+
+  section#main-section {
+    .main-container {
+      padding: 0rem;
+      height: 94vh;
+    }
+  }
+}
