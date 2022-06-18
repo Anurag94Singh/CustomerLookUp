@@ -9,6 +9,10 @@ header {
     align-items: center;
     div {
       background-color: inherit;
+      h3,
+      h4 {
+        color: $primary-black;
+      }
     }
     :nth-child(2) {
       text-align: end;
