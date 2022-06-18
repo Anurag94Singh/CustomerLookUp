@@ -18,10 +18,12 @@ export class NewCustomerComponent implements OnInit {
   }
 
   profileForm = this.fb.group({
+    region: ['', Validators.required],
     firstName: ['', Validators.required],
     lastName: [''],
+    email: ['', Validators.required],
+    phoneNumber: ['', Validators.required],
     address: this.fb.group({
-      street: [''],
       city: [''],
       state: [''],
       zip: ['']
@@ -41,7 +43,6 @@ export class NewCustomerComponent implements OnInit {
     this.profileForm.patchValue({
       firstName: 'Nancy',
       address: {
-        street: '123 Drew Street'
       }
     });
   }
