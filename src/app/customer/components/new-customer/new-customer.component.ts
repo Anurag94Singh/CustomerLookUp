@@ -8,6 +8,12 @@ import { FormArray, FormGroup, FormBuilder, Validators } from '@angular/forms';
 })
 export class NewCustomerComponent implements OnInit {
 
+  states: string[] = [
+    'LA',
+    'NY',
+    'ATLANTA'
+  ]
+
   ngOnInit() {
   }
 
