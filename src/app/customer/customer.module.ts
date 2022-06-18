@@ -5,18 +5,17 @@ import { LandingComponent } from './components/landing/landing.component';
 import { LookUpFormComponent } from './components/look-up-form/look-up-form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NewCustomerComponent } from './components/new-customer/new-customer.component';
 
 @NgModule({
   imports: [
     CommonModule,
-    CustomerRoutingModule,
-    BrowserAnimationsModule, 
-    FormsModule, 
-    ReactiveFormsModule, 
+    CustomerRoutingModule
   ],
   declarations: [
     LandingComponent,
-    LookUpFormComponent
+    LookUpFormComponent,
+    NewCustomerComponent
   ]
 })
 export class CustomerModule { }
