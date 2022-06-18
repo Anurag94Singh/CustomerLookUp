@@ -1,12 +1,24 @@
 /* Add application styles & imports to this file! */
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
+* {
+  box-sizing: border-box;
+}
+
 .row {
   height: 100%;
 }
 
 .bold {
   font-weight: bold;
+}
+
+.floatRight {
+  float: right;
+}
+
+.borderNone {
+  border: 0px;
 }
 
 .smPadding {
