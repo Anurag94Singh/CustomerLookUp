@@ -1,7 +1,14 @@
 {
   "Customer": {
     "CustomerAddressList": {
-      "CustomerAddress": { "AddressID": "200001" }
+      "CustomerAddress": {
+        "AddressID": "200001",
+        "AddressLine1": "987, Broadview Avenue",
+        "AddressLine2": "",
+        "City": "Omaha",
+        "Country": "US",
+        "State": "NE"
+      }
     },
     "CustomerID": "100001",
     "FirstName": "John",
