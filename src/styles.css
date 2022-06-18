@@ -20,3 +20,23 @@
 .lgPadding {
   padding: 2.5rem;
 }
+
+.paddingAllNone {
+  padding: 0rem !important;
+}
+
+.paddingTopNone {
+  padding-top: 0rem !important;
+}
+
+.paddingBottomNone {
+  padding-bottom: 0rem !important;
+}
+
+.paddingLeftNone {
+  padding-left: 0rem !important;
+}
+
+.paddingRightNone {
+  padding-right: 0rem !important;
+}
