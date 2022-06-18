@@ -1,15 +1,22 @@
+@import '../../../utility';
+
 .landing-container {
   text-align: center;
   flex-direction: column;//need to check
   align-items: center;
   .landing-header {
     padding: 0.5rem 0rem;
+    color: $primary-dark-font-color;
   }
   .lookup-form-container {
     background-color: #fff;
     border: 1px solid #ddd;
     padding: 20px;
     height: 50vh;
+    .landing-sub-header {
+      color: $primary-dark-font-color;
+      margin-bottom: 3rem;
+    }
   }
 }
 
