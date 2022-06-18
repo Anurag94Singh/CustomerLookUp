@@ -2,7 +2,7 @@
 
 .landing-container {
   text-align: center;
-  flex-direction: column;//need to check
+  flex-direction: column;
   align-items: center;
   .landing-header {
     color: $primary-dark-font-color;
@@ -13,7 +13,6 @@
     height: 50vh;
     .landing-sub-header {
       color: $primary-dark-font-color;
-      margin-bottom: 3rem;
     }
   }
 }
