@@ -1,6 +1,25 @@
 @import '../../../utility';
 
 section#customer-form-section {
+  .top-action-area {
+    display: flex;
+    align-items: center;
+    .back-action {
+      flex: 0 1 6%;
+      border-right: 1px solid $primary-border-color;
+    }
+    .top-title {
+      flex: 0 1 86%;
+    }
+    .back-action {
+      color: $primary-highlight-color;
+      padding: 0rem 0.25rem;
+    }
+    .close-action {
+      padding: 0rem 0.25rem;
+      color: $primary-highlight-color;
+    }
+  }
   form {
     width: 100%;
     input {

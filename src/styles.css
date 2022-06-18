@@ -1,6 +1,6 @@
 /* Add application styles & imports to this file! */
 @import '~bootstrap/dist/css/bootstrap.min.css';
-@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
 
 * {
   box-sizing: border-box;
@@ -14,12 +14,20 @@
   font-weight: bold;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 .floatRight {
   float: right;
 }
 
 .borderNone {
   border: 0px;
+}
+
+.xsPadding {
+  padding: 0.25rem;
 }
 
 .smPadding {
@@ -70,7 +78,12 @@
 
 /* font sizes end */
 
-.mat-form-field-appearance-legacy .mat-form-field-wrapper {
-  padding-bottom: 1em;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0rem;
 }
 

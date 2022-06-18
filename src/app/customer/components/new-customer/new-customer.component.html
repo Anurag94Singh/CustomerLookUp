@@ -1,8 +1,12 @@
 <section id="customer-form-section">
-  New Customer
+  <div class="top-action-area xsPadding md-font">
+  <div class="back-action pointer bold"><</div>
+  <h5 class="top-title smPadding paddingRightNone md-font">New Customer</h5>
+  <div tabindex="0" [attr.aria-label]="'Close icon'" class="close-action pointer bold">X</div>
+  </div>
   <mat-card>
     <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
-      <select class="form-select" class="smPadding" aria-label="Default select example">
+      <select class="form-select smPadding" aria-label="Default select example">
         <option selected>Open this select menu</option>
         <option value="1">One</option>
         <option value="2">Two</option>
@@ -45,7 +49,7 @@
       <div formGroupName="address">
         <h2 class="mdPadding paddingLeftNone md-font">Billing Address</h2>
 
-        <select class="form-select" class="smPadding" aria-label="Default select example">
+        <select class="form-select smPadding" aria-label="Default select example">
           <option selected>Open this select menu</option>
           <option value="1">One</option>
           <option value="2">Two</option>
