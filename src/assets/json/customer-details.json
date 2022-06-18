@@ -7,7 +7,8 @@
         "AddressLine2": "",
         "City": "Omaha",
         "Country": "US",
-        "State": "NE"
+        "State": "NE",
+        "ZipCode": "68101"
       }
     },
     "CustomerID": "100001",
