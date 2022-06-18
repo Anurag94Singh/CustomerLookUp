@@ -1,0 +1,31 @@
+{
+  "ItemList": {
+    "TotalNumberOfRecords": "2",
+    "Item": [
+      {
+        "PrimaryInformation": {
+          "DisplayDescription": "Frigidaire Window Air Conditioner 1200-BTU",
+          "ImageURL": "<PATH_TO_IMAGE>"
+        },
+        "ComputedPrice": {
+          "UnitPrice": "250",
+          "Currency": "USD"
+        },
+        "ItemID": "1010001",
+        "CustomerID": "100001"
+      },
+      {
+        "PrimaryInformation": {
+          "DisplayDescription": "Hunter Regalia 60-in New Bronze Ceiling Fan",
+          "ImageURL": "<PATH_TO_IMAGE>"
+        },
+        "ComputedPrice": {
+          "UnitPrice": "200",
+          "Currency": "USD"
+        },
+        "ItemID": "1010002",
+        "CustomerID": "100001"
+      }
+    ]
+  }
+}
