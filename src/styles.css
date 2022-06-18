@@ -87,3 +87,6 @@ h6 {
   margin-bottom: 0rem;
 }
 
+.mat-card {
+  border-radius: 0rem !important;
+}
