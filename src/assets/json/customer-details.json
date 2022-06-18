@@ -1,0 +1,12 @@
+{
+  "Customer": {
+    "CustomerAddressList": {
+      "CustomerAddress": { "AddressID": "200001" }
+    },
+    "CustomerID": "100001",
+    "FirstName": "John",
+    "LastName": "Parks",
+    "EmailID": "john@example.com",
+    "Phonenumber": "1234567890"
+  }
+}
