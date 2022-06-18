@@ -7,3 +7,9 @@ $primary-highlight-color: #0d6efd;
 
 $min-font-size: 1rem;
 $max-font-size: 10rem;
+
+.btnPrimary {
+  background-color: $primary-highlight-color;
+  color: $primary-white;
+  border: none;
+}
