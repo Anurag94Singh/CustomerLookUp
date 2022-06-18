@@ -52,3 +52,19 @@
 .paddingRightNone {
   padding-right: 0rem !important;
 }
+
+/* font sizes start */
+
+.m-sm-font {
+  font-size: calc(0.5vh + 0.5rem);
+}
+
+.m-md-font {
+  font-size: calc(0.5vh + 0.65rem);
+}
+
+.m-lg-font {
+  font-size: calc(0.5vh + 0.75rem);
+}
+
+/* font sizes end */
