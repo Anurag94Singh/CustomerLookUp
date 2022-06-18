@@ -1,9 +1,14 @@
 $primary-black: #242323;
 $primary-white: #f8f5f5;
+$primary-dark-font-color:#666060;
 
 $min-font-size: 1rem;
 $max-font-size: 10rem;
 
 .bold {
   font-weight: bold;
+}
+
+* {
+  color: $primary-dark-font-color;
 }
