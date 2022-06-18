@@ -3,14 +3,12 @@ $primary-white: #f8f5f5;
 $primary-dark-font-color: #666060;
 $primary-light-font-color: #ffffff;
 $primary-border-color: #b6b5b5;
-$primary-highlight-color: #0d6efd;
+$primary-highlight-color: #16a085;
 $sm-font-size: calc(0.5vw + 0.65rem);
 
 $min-font-size: 1rem;
 $max-font-size: 10rem;
 
-.btnPrimary {
+.btn.btn-primary {
   background-color: $primary-highlight-color;
-  color: $primary-white;
-  border: none;
 }
