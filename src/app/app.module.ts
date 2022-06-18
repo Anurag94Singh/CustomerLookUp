@@ -5,10 +5,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CustomerModule } from './customer/customer.module';
 
 @NgModule({
-  imports:      [ BrowserModule, BrowserAnimationsModule, FormsModule, ReactiveFormsModule, AppRoutingModule ],
+  imports:      [ BrowserModule, AppRoutingModule, FormsModule, ReactiveFormsModule, CustomerModule ],
   declarations: [ AppComponent, HelloComponent ],
   bootstrap:    [ AppComponent ]
 })
