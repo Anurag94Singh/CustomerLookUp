@@ -1,0 +1,43 @@
+{
+  "CustomerList": {
+    "TotalNumberOfRecords": "2",
+    "Customer": [
+      {
+        "CustomerAddressList": {
+          "CustomerAddress": {
+            "AddressID": "200001",
+            "AddressLine1": "987, Broadview Avenue",
+            "AddressLine2": "",
+            "City": "Omaha",
+            "Country": "US",
+            "State": "NE",
+            "ZipCode": "68101"
+          }
+        },
+        "CustomerID": "100001",
+        "FirstName": "John",
+        "LastName": "Parks",
+        "EmailID": "john@example.com",
+        "Phonenumber": "1234567890"
+      },
+      {
+        "CustomerAddressList": {
+          "CustomerAddress": {
+            "AddressID": "200002",
+            "AddressLine1": "6849, Wolfe Road",
+            "AddressLine2": "123",
+            "City": "Sunnydale",
+            "Country": "US",
+            "State": "CA",
+            "ZipCode": "94049"
+          }
+        },
+        "CustomerID": "100002",
+        "FirstName": "Abby",
+        "LastName": "Doyle",
+        "EmailID": "adoyle@example.com",
+        "Phonenumber": "6478390821"
+      }
+    ]
+  }
+}
