@@ -55,15 +55,15 @@
 
 /* font sizes start */
 
-.m-sm-font {
+.sm-font {
   font-size: calc(0.5vw + 0.65rem);
 }
 
-.m-md-font {
+.md-font {
   font-size: calc(0.5vw + 0.75rem);
 }
 
-.m-lg-font {
+.lg-font {
   font-size: calc(0.5vw + 0.85rem);
 }
 
