@@ -4,3 +4,19 @@
 .row {
   height: 100%;
 }
+
+.bold {
+  font-weight: bold;
+}
+
+.smPadding {
+  padding: 2rem;
+}
+
+.mdPadding {
+  padding: 3rem;
+}
+
+.lgPadding {
+  padding: 4rem;
+}
