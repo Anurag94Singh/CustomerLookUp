@@ -1,0 +1,27 @@
+section#customer-form-section {
+  form {
+    width: 100%;
+    input {
+      width: inherit;
+      margin: 0.25rem 0rem;
+      font-size: 0.75rem;
+      height: calc(0.1vh + 2rem);
+      border-radius: 0%;
+      border: 1px solid #9e9e9e;
+      padding: 0.25rem;
+      outline: none;
+    }
+    div {
+      width: inherit;
+    }
+  }
+  .action-area {
+    float: right;
+    margin-top: 0.25rem;
+    button {
+      margin-left: 0.25rem;
+      border-radius: 1px;
+      padding: calc(0.2vh + 0.1rem) calc(0.5vh + 0.25rem);
+    }
+  }
+}
