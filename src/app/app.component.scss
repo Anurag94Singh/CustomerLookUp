@@ -10,6 +10,9 @@ header {
     div {
       background-color: inherit;
     }
+    :nth-child(2) {
+      text-align: end;
+    }
   }
 }
 
