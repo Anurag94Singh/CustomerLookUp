@@ -18,9 +18,9 @@ section#customer-form-section {
     }
   }
   form {
-    width: 100%;
+    width: 70%;
     input {
-      width: inherit;
+      width: 100%;
       margin: 0.25rem 0rem;
       font-size: $sm-font-size;
       height: calc(0.1vh + 2rem);
@@ -39,7 +39,11 @@ section#customer-form-section {
       width: 100%;
     }
     div {
-      width: inherit;
+      width: 100%;
+    }
+    #add-customer-btn {
+      border-radius: 0rem;
+      margin-top: 0.25rem;
     }
   }
   .action-area {
@@ -58,14 +62,20 @@ section#customer-form-section {
     .top-action-area {
       background-color: #ffffff;
       margin-bottom: 1px;
-      box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%) !important;
+      box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+        0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%) !important;
     }
     form {
+      width: 100%;
       input {
         height: auto;
+        width: 45%;
+        margin: 0.25rem;
       }
       .form-select {
         height: auto;
+        width: 45%;
+        margin: 0.25rem;
       }
     }
   }

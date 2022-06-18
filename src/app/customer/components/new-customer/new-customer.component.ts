@@ -24,6 +24,7 @@ export class NewCustomerComponent implements OnInit {
     email: ['', Validators.required],
     phoneNumber: ['', Validators.required],
     address: this.fb.group({
+      addressLine: [''],
       city: [''],
       state: [''],
       zip: ['']

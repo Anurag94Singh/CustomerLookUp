@@ -49,7 +49,15 @@
       <div formGroupName="address">
         <h2 class="mdPadding paddingLeftNone md-font">Billing Address</h2>
 
-        <select class="form-select smPadding" aria-label="Default select example">
+        <input
+          id="addressLine"
+          type="text"
+          placeholder="Address Line 1"
+          class="smPadding floatLeft"
+          formControlName="addressLine"
+        />
+
+        <select class="form-select smPadding floatLeft" aria-label="Default select example">
           <option selected>Open this select menu</option>
           <option value="1">One</option>
           <option value="2">Two</option>
@@ -67,7 +75,7 @@
         <input id="zip" type="text" placeholder="Zip" class="smPadding" formControlName="zip" />
       </div>
 
-      <button type="submit" [disabled]="!profileForm.valid">Submit</button>
+      <button id="add-customer-btn" type="submit" class="btn btn-primary md-font sm" [disabled]="!profileForm.valid">Add New Customer</button>
     </form>
   </mat-card>
 </section>
