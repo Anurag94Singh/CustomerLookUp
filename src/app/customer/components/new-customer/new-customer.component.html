@@ -1,41 +1,64 @@
 <section id="customer-form-section">
   New Customer
   <mat-card>
-  <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
-  <mat-form-field class="example-full-width">
-  <mat-label>Country/Region</mat-label>
-  <mat-select formControlName="region">
-    <mat-option *ngFor="let state of states" [value]="state">
-      {{state}}
-    </mat-option>
-  </mat-select>
-</mat-form-field>
-  <input id="first-name" placeholder="First Name" type="text" formControlName="firstName" required>
-  
-  <input id="last-name" placeholder="Last Name" type="text" formControlName="lastName">
+    <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+      <select class="form-select" aria-label="Default select example">
+        <option selected>Open this select menu</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+      <input
+        id="first-name"
+        placeholder="First Name"
+        type="text"
+        formControlName="firstName"
+        required
+      />
 
-  <input id="email" placeholder="Email" type="text" formControlName="email" required>
-  
-  <input id="phone-number" placeholder="Phone Number" type="text" formControlName="phoneNumber">
-  
-  <div formGroupName="address">
-    <h2 class="mdPadding paddingLeftNone md-font">Billing Address</h2>
-  
-    <mat-form-field class="example-full-width">
-    <mat-label>State</mat-label>
-    <mat-select formControlName="state">
-      <mat-option *ngFor="let state of states" [value]="state">
-        {{state}}
-      </mat-option>
-    </mat-select>
-  </mat-form-field>
-  
-    <input id="city" type="text" placeholder="City" formControlName="city">
-  
-    <input id="zip" type="text" placeholder="Zip" formControlName="zip">
-  </div>
-  
-  <button type="submit" [disabled]="!profileForm.valid">Submit</button>
-  </form>
+      <input
+        id="last-name"
+        placeholder="Last Name"
+        type="text"
+        formControlName="lastName"
+      />
+
+      <input
+        id="email"
+        placeholder="Email"
+        type="text"
+        formControlName="email"
+        required
+      />
+
+      <input
+        id="phone-number"
+        placeholder="Phone Number"
+        type="text"
+        formControlName="phoneNumber"
+      />
+
+      <div formGroupName="address">
+        <h2 class="mdPadding paddingLeftNone md-font">Billing Address</h2>
+
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Open this select menu</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+
+        <input
+          id="city"
+          type="text"
+          placeholder="City"
+          formControlName="city"
+        />
+
+        <input id="zip" type="text" placeholder="Zip" formControlName="zip" />
+      </div>
+
+      <button type="submit" [disabled]="!profileForm.valid">Submit</button>
+    </form>
   </mat-card>
 </section>

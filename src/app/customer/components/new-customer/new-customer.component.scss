@@ -1,15 +1,27 @@
+@import '../../../utility';
+
 section#customer-form-section {
   form {
     width: 100%;
     input {
       width: inherit;
       margin: 0.25rem 0rem;
-      font-size: 0.75rem;
+      font-size: $sm-font-size;
       height: calc(0.1vh + 2rem);
       border-radius: 0%;
       border: 1px solid #9e9e9e;
       padding: 0.25rem;
       outline: none;
+    }
+    .form-select {
+      color: $primary-dark-font-color;
+      font-size: $md-font-size;
+      height: calc(0.1vh + 2rem);
+      border-radius: 0%;
+      border: 1px solid #9e9e9e;
+      padding: 0.25rem;
+      outline: none;
+      box-shadow: none;
     }
     div {
       width: inherit;
@@ -24,4 +36,13 @@ section#customer-form-section {
       padding: calc(0.2vh + 0.1rem) calc(0.5vh + 0.25rem);
     }
   }
+}
+.select-field {
+  border: 1px solid;
+  mat-form-field {
+    width: 100%;
+  }
+}
+::ng-deep .mat-form-field-appearance-legacy .mat-form-field-underline {
+  height: 0px !important;
 }
