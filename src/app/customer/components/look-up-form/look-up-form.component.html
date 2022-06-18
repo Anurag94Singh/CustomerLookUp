@@ -24,6 +24,6 @@
     <button type="button" class="btn btn-outline-primary">
       Reset
     </button>
-    <button type="button" class="btn btn-primary">Search</button>
+    <button  type="submit" [disabled]="!lookupForm.valid" class="btn btn-primary">Search</button>
   </div>
 </section>
