@@ -16,10 +16,9 @@ section#lookup-form-section {
     float: right;
     margin-top: 0.25rem;
     button {
-      font-size: 0.75rem;
       margin-left: 0.25rem;
       border-radius: 1px;
-      height: 1.75rem;
+      height: calc(1vh + 1rem);
       padding: 0.1rem 0.5rem;
     }
   }
