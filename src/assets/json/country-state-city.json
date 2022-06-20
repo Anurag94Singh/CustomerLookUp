@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "name": "United States",
+    "code": "US",
+    "states": [
+      {
+        "id": 1,
+        "name": "California",
+        "code": "CF"
+      },
+      {
+        "id": 2,
+        "name": "North Carolina",
+        "code": "NC"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "India",
+    "code": "IND",
+    "states": [
+      {
+        "id": 1,
+        "name": "Karnataka",
+        "code": "KA"
+      },
+      {
+        "id": 2,
+        "name": "Uttar Pradesh",
+        "code": "UP"
+      }
+    ]
+  }
+]
