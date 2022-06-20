@@ -7,6 +7,8 @@ import { NewCustomerComponent } from './components/new-customer/new-customer.com
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatSelectModule } from '@angular/material/select';
 import { MatCardModule } from '@angular/material/card';
+import { SharedService } from './components/shared.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   imports: [
@@ -16,7 +18,9 @@ import { MatCardModule } from '@angular/material/card';
     ReactiveFormsModule,
     MatSelectModule,
     MatCardModule,
+    HttpClientModule
   ],
   declarations: [LandingComponent, LookUpFormComponent, NewCustomerComponent],
+  providers: [SharedService]
 })
 export class CustomerModule {}

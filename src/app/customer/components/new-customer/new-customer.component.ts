@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormArray, FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { SharedService } from '../shared.service';
 
 @Component({
   selector: 'app-new-customer',
@@ -8,13 +9,17 @@ import { FormArray, FormGroup, FormBuilder, Validators } from '@angular/forms';
 })
 export class NewCustomerComponent implements OnInit {
 
-  states: string[] = [
-    'LA',
-    'NY',
-    'ATLANTA'
-  ]
+  countrySates: any[] = [];
+
+  constructor(private fb: FormBuilder, private sharedService: SharedService){}
 
   ngOnInit() {
+    this.sharedService.getCountryStates().subscribe(
+      (data: any) => {
+        this.countrySates = data;
+        console.log(data);
+      }
+    )
   }
 
   profileForm = this.fb.group({
@@ -37,8 +42,6 @@ export class NewCustomerComponent implements OnInit {
   get aliases() {
     return this.profileForm.get('aliases') as FormArray;
   }
-
-  constructor(private fb: FormBuilder) { }
 
   updateProfile() {
     this.profileForm.patchValue({
